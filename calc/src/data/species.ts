@@ -38,7 +38,7 @@ const RBY: {[name: string]: SpeciesData} = {
     bs: {hp: 55, at: 50, df: 45, sp: 120, sl: 135},
     weightkg: 48,
   },
-  Arbok: {types: ['Poison'], bs: {hp: 60, at: 85, df: 69, sp: 80, sl: 65}, weightkg: 65},
+  Arbok: {types: ['Poison'], bs: {hp: 60, at: 110, df: 70, sp: 80, sl: 65}, weightkg: 65},
   Arcanine: {
     types: ['Fire'],
     bs: {hp: 90, at: 110, df: 80, sp: 95, sl: 80},
@@ -802,7 +802,7 @@ const GSC_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Abra: {bs: {sa: 105, sd: 55}},
   Aerodactyl: {bs: {sa: 60, sd: 75}},
   Alakazam: {bs: {sa: 135, sd: 85}},
-  Arbok: {bs: {sa: 65, sd: 79}},
+  Arbok: {bs: {sa: 55, sd: 80}},
   Arcanine: {bs: {sa: 100, sd: 80}},
   Articuno: {bs: {sa: 95, sd: 125}, gender: 'N'},
   Beedrill: {bs: {sa: 45, sd: 80}},
